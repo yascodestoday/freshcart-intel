@@ -1,0 +1,11 @@
+{
+  // Hide folders that tools create and manage, so the file list only shows your own files.
+  "files.exclude": {
+    "**/.venv": true,
+    "**/.pytest_cache": true,
+    "**/__pycache__": true,
+    "**/*.egg-info": true,
+    "**/.DS_Store": true
+  },
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python"
+}

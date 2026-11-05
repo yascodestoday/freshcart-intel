@@ -1,0 +1,12 @@
+{
+  "customers_kept": 2000,
+  "customers_rejected": {
+    "duplicate": 40
+  },
+  "orders_kept": 42411,
+  "orders_rejected": {
+    "bad_date": 206,
+    "bad_amount": 445,
+    "unknown_customer": 286
+  }
+}
