@@ -20,7 +20,7 @@ def read_rows(path):
         with open(path, newline="", encoding="utf-8") as f:
             return list(csv.DictReader(f))
     except FileNotFoundError:
-        raise SystemExit(f"File not found: {path}. Did you run python scripts/make_data.py?")
+        raise SystemExit(f"File not found: {path}. Did you run python make_data.py?")
 
 
 def clean_customers(rows):
